@@ -1,0 +1,27 @@
+{
+  "name": "n0liu-theme",
+  "displayName": "n0liu-theme",
+  "description": "Welcome to the n0liu-theme plugin.",
+  "publisher": "n0liu",
+  "version": "0.0.1",
+  "icon": "images/tq.jpeg",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "repository": {
+		"type": "git",
+		"url": ""
+	},
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "n0liu-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/n0liu-theme-color-theme.json"
+      }
+    ]
+  }
+}
