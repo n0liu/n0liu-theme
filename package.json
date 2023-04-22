@@ -10,8 +10,13 @@
   },
   "repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/n0liu/n0liu-theme.git"
 	},
+  "scripts": {
+    "install vsce": "npm install vsce -g --save vsce",
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
   "categories": [
     "Themes"
   ],
